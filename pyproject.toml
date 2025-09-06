@@ -1,0 +1,23 @@
+[project]
+name = "audio-interview-processor"
+version = "0.1.0"
+description = "A small script to process interviews and turn them into a document"
+authors = [
+    {name = "Angelo Mosquera",email = "anggelomos@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.3.0"
+ruff = "^0.12.12"
+mypy = "^1.17.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
